@@ -1,6 +1,6 @@
 package openclosed.implementation;
 
-public class GoldDiscountMembership implements DiscountCalculator {
+public class GoldMembership implements DiscountCalculator {
     private static double DISCOUNT = 25;
     private static double CENT = 100;
 
