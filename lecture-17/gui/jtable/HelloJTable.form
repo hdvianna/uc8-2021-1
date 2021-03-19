@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.jtable.HelloJTable">
+  <grid id="27dc6" binding="rootContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="611" height="341"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="ddd34" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="754a9" class="javax.swing.JButton" binding="newButton">
+            <constraints/>
+            <properties>
+              <text value="New"/>
+            </properties>
+          </component>
+          <component id="164c3" class="javax.swing.JButton" binding="editButton">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <text value="Edit"/>
+            </properties>
+          </component>
+          <component id="d4580" class="javax.swing.JButton" binding="deleteButton">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="4367e" class="javax.swing.JButton" binding="closeButton">
+            <constraints/>
+            <properties>
+              <text value="Close"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="2c85e">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1bc7a" class="javax.swing.JTable" binding="charactersTable">
+            <constraints/>
+            <properties>
+              <showHorizontalLines value="true"/>
+              <showVerticalLines value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
